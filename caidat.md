@@ -57,8 +57,12 @@ git checkout main
 
 git merge body-style
 
-# tải những thay đỏi từ git về
+# tải những thay đổi từ git về
 
 git pull
+
+# tải lên git
+
+git push
 
 # tạo file .gitignore để dấu những file không muốn tải lên(ex: .env, node_modules)

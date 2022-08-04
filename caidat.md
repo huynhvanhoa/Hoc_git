@@ -20,6 +20,11 @@ git add .
 
 git commit -m "add index.html file"
 git commit -m "add caidat.md file"
+
+# khi thay đổi trên file, muốn updated lại dùng lệnh
+
+git commit -m "updated caidat.md file"
+
 git branch -M main
 git remote add origin https://github.com/huynhvanhoa/Hoc_git.git
 git push -u origin main

@@ -25,6 +25,8 @@ git commit -m "add caidat.md file"
 
 git commit -m "updated caidat.md file"
 
+# nut Q để thoát
+
 git branch -M main
 git remote add origin https://github.com/huynhvanhoa/Hoc_git.git
 git push -u origin main

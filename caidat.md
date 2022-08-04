@@ -52,3 +52,8 @@ git checkout -b body-style
 # về lại nhánh chính
 
 git checkout main
+
+# cập nhật từ nhánh phụ vào nhánh chính, sau đó đưa lên git
+
+git merge body-style
+git push

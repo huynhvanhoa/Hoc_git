@@ -56,4 +56,7 @@ git checkout main
 # cập nhật từ nhánh phụ vào nhánh chính, sau đó đưa lên git
 
 git merge body-style
-git push
+
+# tải những thay đỏi từ git về
+
+git pull

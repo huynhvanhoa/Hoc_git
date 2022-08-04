@@ -19,7 +19,7 @@ git add .
 # chuyển file từ Staging Area sang commited,sau đó xem lại bằng lện git log
 
 git commit -m "add index.html file"
-
+git commit -m "add caidat.md file"
 git branch -M main
 git remote add origin https://github.com/huynhvanhoa/Hoc_git.git
 git push -u origin main

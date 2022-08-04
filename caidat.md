@@ -16,6 +16,10 @@ git add caidat.md
 // chọn tất cả, sau đó chạy lệnh git status để xem thử
 git add .
 
+# chuyển file từ Staging Area sang về local
+
+git restore --staged caidat.cmd
+
 # chuyển file từ Staging Area sang commited,sau đó xem lại bằng lệnh git log
 
 git commit -m "add index.html file"
@@ -36,3 +40,11 @@ git push -u origin main
 git remote add origin https://github.com/huynhvanhoa/Hoc_git.git
 git branch -M main
 git push -u origin main
+
+## xem có bao nhiêu branch
+
+git branch
+
+# tạo branch trên main chính
+
+git checkout -b body-style

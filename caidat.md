@@ -31,7 +31,7 @@ git branch -M main
 git remote add origin https://github.com/huynhvanhoa/Hoc_git.git
 git push -u origin main
 
-## đẩy một kho lưu trữ hiện có, dùng 3 lệnh sau
+## đẩy một kho lưu trữ hiện có, dùng 3 lệnh sau (muốn cập nhật chỉ cần dùng 2 lệnh cuối)
 
 git remote add origin https://github.com/huynhvanhoa/Hoc_git.git
 git branch -M main

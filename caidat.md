@@ -41,10 +41,14 @@ git remote add origin https://github.com/huynhvanhoa/Hoc_git.git
 git branch -M main
 git push -u origin main
 
-## xem có bao nhiêu branch
+## xem có bao nhiêu branch trên nhánh chính
 
 git branch
 
 # tạo branch trên main chính
 
 git checkout -b body-style
+
+# về lại nhánh chính
+
+git checkout main

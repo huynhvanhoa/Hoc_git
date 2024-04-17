@@ -1,14 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>git</title>
-  </head>
-  <body>
-    <h2>Học GIT</h2>
-    <!-- 
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>git</title>
+</head>
+
+<body>
+  <h2>Học GIT</h2>
+  <h3>Có 2 cách để tải mã nguồn từ github:</h3>
+  <p> - git clone + đường dẫn file</p>
+  <p> - download toàn bộ dạng zip file</p>
+  <hr />
+  <h3>Cách đưa code lên GitHub:</h3>
+  <h4> * Tạo một repository mới trên Github (trên web)</h4>
+  <p> - Sau khi các bạn đã thực hiện bước 1 xong, các bạn đăng nhập vào GitHub và tạo một repository mới để đưa code lên
+    GitHub.
+    Các bạn thực hiện giống như ảnh bên dưới:</p>
+  <img src="./123/Hoc_git/img/1.PNG" alt="" />
+  <p> - Chọn New repository. Sau đó các bạn nhập thông tin bên dưới như hình:</p>
+  <img src="./123/Hoc_git/img/2.PNG" alt="" />
+  <p> - Sau khi các bạn chọn Create repository thì sẽ hiện được như hình bên dưới đây:</p>
+  <img src="./123/Hoc_git/img/3.PNG" alt="" />
+  <h4>Đưa code lên GitHub (dưới desktop)</h4>
+  <p> - Đầu tiên các bạn mở VSCode lên vào thư mục mà bạn muốn đưa code lên GitHub. Các bạn vào Terminal chọn New
+    Terminal:
+  </p>
+  <p> - git init (1 git repository 1 project mới)</p>
+  <p>Sau đó ta gõ git status để check những file chưa được đưa lên hoặc đã thay đổi trong thư mục(không bắt buộc)</p>
+  <p> - git add ./ (tất cả những file cần đưa lên github)</p>
+  <p>Để kiểm tra mình đã add thành công hay chưa các bạn gõ git status lại để check(không bắt buộc)</p>
+  <p> - git commit -m "commit 1"(Lệnh này dùng để note lại các thay đổi để dễ dàng theo dõi)</p>
+  <p> - git branch -M main</p>
+  <p> - git remote add origin https://github.com/huynhvanhoa/git.git</p>
+  <p> - git push -u origin main (đưa code lên Github)</p>
+  <!-- 
       git add .
       git commit -m "add caidat.md file"
 
@@ -36,5 +64,6 @@
 
       git pull
      -->
-  </body>
+</body>
+
 </html>
